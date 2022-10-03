@@ -1,0 +1,77 @@
+/* Universal Styles */
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: white;
+}
+
+.center, .section-title, .section-desc {
+    text-align: center;
+}
+
+main {
+    position: relative;
+    top: 120px;
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: solid 1px #c6c1c1;
+    background-color: white;
+}
+
+header .nav-list {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    align-items: space-between;
+    list-style: none;
+}
+
+header li {
+    padding: 0 2.5rem;
+}
+  
+header a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* Top Section */
+
+.top-content {
+    background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15rem;
+}
+
+.top-content div {
+    padding-top: .75rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-content h2, .top-content h3 {
+    background-color: white;
+}
+
+
+/* Footer */
+
+footer {
+    padding-top: 120px;
+}
