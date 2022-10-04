@@ -73,6 +73,20 @@ header a {
     margin: 0.5rem 0;
 }
 
+/* Middle Section */
+
+.horizontal-flex {
+    display: flex;
+}
+
+.image-card {
+    display: flex;
+    min-width: 28.125rem;
+}
+
+.card-name {
+    text-align: center;
+}
 
 /* Footer */
 
