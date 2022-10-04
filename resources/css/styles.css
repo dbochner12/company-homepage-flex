@@ -23,16 +23,15 @@ header {
     width: 100%;
     border-bottom: solid 1px #c6c1c1;
     background-color: white;
+    top: 0px;
 }
 
 header .nav-list {
     display: flex;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
 header ul {
-    display: flex;
-    align-items: space-between;
     list-style: none;
 }
 
@@ -60,13 +59,18 @@ header a {
 }
 
 .top-content div {
-    padding-top: .75rem;
     display: flex;
     flex-direction: column;
+    align-content: space-around;
 }
 
-.top-content h2, .top-content h3 {
+.flex-content {
     background-color: white;
+    margin-top: 4rem;
+}
+
+.flex-content h2, .flex-content h3 {
+    margin: 0.5rem 0;
 }
 
 
