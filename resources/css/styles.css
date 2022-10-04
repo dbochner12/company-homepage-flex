@@ -100,6 +100,35 @@ header a {
     margin: auto;
 }
 
+
+/* Our Team Section */
+
+.nested-flex {
+    display: flex;
+}
+
+.outer-flex {
+    background-image: url("../images/blurred-road.jpg");
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.staff-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 200px;
+}
+
+.staff-title {
+    max-width: 250px;;
+}
+
+
+
 /* Footer */
 
 footer {
