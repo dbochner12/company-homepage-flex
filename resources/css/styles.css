@@ -23,6 +23,7 @@ section {
     margin-bottom: 5rem;
 }
 
+
 /* Header */
 
 header {
@@ -52,10 +53,6 @@ header a {
 }
 
 
-
-
-
-
 /* Top Section */
 
 .top-content {
@@ -81,6 +78,7 @@ header a {
     margin: 0.5rem 0;
 }
 
+
 /* Middle Section */
 
 .horizontal-flex {
@@ -103,30 +101,38 @@ header a {
 
 /* Our Team Section */
 
-.nested-flex {
-    display: flex;
-}
-
 .outer-flex {
     background-image: url("../images/blurred-road.jpg");
     background-position-x: 0px;
     background-position-y: 0px;
-    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: sans-serif;
 }
 
 .staff-card {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    min-width: 200px;
+    color: white;
+    flex-basis: 280px;
+    padding-top: 0.75rem;
+}
+
+.card-image {
+    height: auto;
+}
+
+.staff-name {
+    margin: auto;
 }
 
 .staff-title {
-    max-width: 250px;;
+    max-width: 200px;;
 }
-
 
 
 /* Footer */
